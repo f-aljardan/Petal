@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/dplantImageView"
+        android:layout_width="94dp"
+        android:layout_height="101dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/project_logo_" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="16dp">
+
+        <TextView
+            android:id="@+id/dplantNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Plant Name" />
+
+        <TextView
+            android:id="@+id/dplantDescTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="Plant Description" />
+
+        <TextView
+            android:id="@+id/dplantSizeTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="Plant Size" />
+
+        <TextView
+            android:id="@+id/dplantSunTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="Plant Sun Exposure" />
+
+        <TextView
+            android:id="@+id/dplantSoilTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="Plant Soil Type" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/rentedPlantImg"
+        android:layout_width="86dp"
+        android:layout_height="139dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/project_logo_" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="16dp">
+
+        <TextView
+            android:id="@+id/rentedPlantName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Plant Name" />
+
+        <TextView
+            android:id="@+id/rentedPlantDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="Plant Description" />
+
+        <TextView
+            android:id="@+id/rentedPlantSize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="Plant Size" />
+
+        <TextView
+            android:id="@+id/rentedPlantSun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="Plant Sun Exposure" />
+
+        <TextView
+            android:id="@+id/rentedPlantSoil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="Plant Soil Type" />
+
+        <TextView
+            android:id="@+id/rentedPlantOwner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="Plant Owner" />
+        <TextView
+            android:id="@+id/rentedPlantDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="Rental Date" />
+
+    </LinearLayout>
+
+</LinearLayout>
